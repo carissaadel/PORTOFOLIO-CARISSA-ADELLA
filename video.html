@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mario World | Video Carissa</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Poppins:wght@400;600&display=swap');
+
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: #5c94fc;
+            background-image: url('https://www.transparenttextures.com/patterns/pixel-weave.png');
+            margin: 0;
+            color: #333;
+        }
+
+        header {
+            background: linear-gradient(90deg, #e52521 50%, #38b000 50%);
+            color: white;
+            text-align: center;
+            padding: 30px;
+            border-bottom: 8px solid #333;
+            box-shadow: 0 10px 0 rgba(0,0,0,0.2);
+        }
+
+        header h1 {
+            font-family: 'Press Start 2P', cursive;
+            font-size: 1.2em;
+            text-shadow: 3px 3px 0px #000;
+        }
+
+        nav {
+            background-color: #4338ca;
+            padding: 0;
+            text-align: center;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            border-bottom: 5px solid #2e268f;
+        }
+
+        nav a {
+            color: white;
+            padding: 15px 12px;
+            display: inline-block;
+            text-decoration: none;
+            font-family: 'Press Start 2P', cursive;
+            font-size: 0.6em;
+        }
+
+        nav a:hover {
+            background-color: #f59e0b;
+        }
+
+        .container {
+            width: 90%;
+            max-width: 850px;
+            margin: 40px auto;
+            background-color: white;
+            padding: 30px;
+            border: 6px solid #333;
+            box-shadow: 15px 15px 0px rgba(0,0,0,0.1);
+            border-radius: 15px;
+        }
+
+        .content-text h2 {
+            font-family: 'Press Start 2P', cursive;
+            color: #fff;
+            background-color: #38b000;
+            padding: 12px;
+            font-size: 0.8em;
+            border-left: 10px solid #e52521;
+            margin-top: 30px;
+        }
+
+        .video-box {
+            margin-top: 40px;
+            text-align: center;
+            background: #222;
+            padding: 15px;
+            border: 5px solid #ffca18;
+            border-radius: 10px;
+        }
+
+        /* Wrapper ini biar videonya pas (tidak gepeng) di HP */
+        .video-wrapper {
+            position: relative;
+            padding-bottom: 56.25%; 
+            height: 0;
+            overflow: hidden;
+        }
+
+        .video-wrapper iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border: none;
+        }
+
+        footer {
+            background-color: #333;
+            color: #ffca18;
+            text-align: center;
+            padding: 25px;
+            margin-top: 40px;
+            font-family: 'Press Start 2P', cursive;
+            font-size: 0.5em;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>VIDEO LEVEL: BROADCAST</h1>
+</header>
+
+<nav>
+    <a href="index.html">START</a>
+    <a href="profil.html">BIO</a>
+    <a href="video.html">VIDEO</a>
+    <a href="project.html">LEVELS</a>
+</nav>
+
+<div class="container">
+
+    <div class="content-text">
+        <h2>MISSION: ARGUMENTASI</h2>
+        <p>Video ini menjawab salah satu hal yang sering ditanyakan: <b>KELAS VS COOKING</b>. Menjelaskan sejarah awal terbentuknya hidangan pastry, dan manfaat yang didapatkan dari mengikuti kegiatan internship kurikulum yang diadakan oleh SMPIT AL HARAKI.</p>
+
+        <h2 style="background-color: #e52521; border-left: 10px solid #38b000;">BEHIND THE SCENE</h2>
+        <p>Dulu saya berfikir menjadi seorang baker sangatlah mudah. Ternyata semua itu <b>SALAH</b>; Cooking dan Tata Boga adalah dua hal yang sangat berbeda dalam fokus dan ketelitiannya.</p>
+    </div>
+
+    <div class="video-box">
+        <p style="color: white; font-family: 'Press Start 2P', cursive; font-size: 0.7em; margin-bottom: 15px;">▶️ PRESS PLAY TO START</p>
+        
+        <div class="video-wrapper">
+            <iframe 
+                src="https://www.youtube.com/embed/fAdO7jWkRrc" 
+                title="Video Portofolio Carissa"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                allowfullscreen>
+            </iframe>
+        </div>
+    </div>
+
+</div>
+
+<footer>
+    <p>Ujian Praktik Terintegrasi | SMPIT Al Haraki | @2026</p>
+</footer>
+
+</body>
+</html>
